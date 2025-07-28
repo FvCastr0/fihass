@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fihass</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="background"></div>
+      <img src="./img/logo.jpg" alt="Logo fihass" class="logo" />
+      <p>
+        Você está a um passo de comer a
+        <strong>melhor esfirra de Juiz de fora</strong>
+      </p>
+      <button
+        onclick="redirectButton('https://deliverydireto.com.br/fihass/fihass?fbclid=PAZXh0bgNhZW0CMTEAAaecrPxhRc4cjB00x7OX7hpnQFmAyIQRe6QgRDW--XcZTJVfOADyo1EjkL7z9A_aem_LmtqV8tjdYA0B60PP1YYdg&dd=menu')"
+      >
+        Acessar cardápio digital
+      </button>
+      <h1>Conheça também</h1>
+      <div class="secondary">
+        <img
+          src="./img/match.png"
+          alt="Logo Match pizza"
+          onclick="redirectButton('https://www.instagram.com/matchpizza/')"
+        />
+        <img
+          src="./img/smatch.png"
+          alt="Logo Smatch burger"
+          onclick="redirectButton('https://www.instagram.com/smatchburger/')"
+        />
+      </div>
+    </main>
+  </body>
+
+  <script>
+    function redirectButton(href) {
+      window.location.href = href;
+    }
+  </script>
+</html>
